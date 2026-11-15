@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Öğrenme yolculuğum</title>
+  <desc id="desc">Godot 4 ve GDScript deneyimi, öğrenilen Python, temel Lua ve web geliştirme ilgisi için dört kart.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1524"/><stop offset="1" stop-color="#142238"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6be6c8"/><stop offset="1" stop-color="#819dff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <style>
+    .flow{stroke-dasharray:8 14;animation:dash 8s linear infinite}
+    .b1{animation:float 5s ease-in-out infinite}
+    .b2{animation:float 5s ease-in-out .6s infinite}
+    .b3{animation:float 5s ease-in-out 1.2s infinite}
+    .b4{animation:float 5s ease-in-out 1.8s infinite}
+    .dot{animation:pulse 2.7s ease-in-out infinite alternate}
+    @keyframes dash{to{stroke-dashoffset:-176}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @keyframes pulse{from{opacity:.45}to{opacity:1}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x="1" y="1" width="1198" height="248" rx="22" fill="url(#back)" stroke="#30485e" stroke-width="2"/>
+  <text x="45" y="48" fill="#e9f4fc" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700" font-size="24">Öğrenme yolculuğum</text>
+  <text x="45" y="74" fill="#98b0c5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Bir seviye yarışı değil, sürekli keşif.</text>
+  <line x1="96" y1="169" x2="1108" y2="169" stroke="#33536a" stroke-width="3"/>
+  <line x1="96" y1="169" x2="1108" y2="169" class="flow" stroke="url(#line)" stroke-width="3"/>
+  <g font-family="DejaVu Sans,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g class="b1"><rect x="45" y="107" width="252" height="118" rx="16" fill="#1b3141" stroke="#3d7a76"/><rect x="64" y="126" width="38" height="38" rx="10" fill="#284a4b"/><text x="83" y="153" fill="#79e4ce" font-size="21" font-weight="700">G</text><text x="182" y="145" fill="#f1f8fc" font-size="19" font-weight="700">Godot 4</text><text x="182" y="170" fill="#b2cbd7" font-size="14">GDScript</text><rect x="114" y="189" width="136" height="25" rx="12.5" fill="#214b45"/><text x="182" y="206" fill="#8cead0" font-size="12" font-weight="700">Deneyimim var</text></g>
+    <g class="b2"><rect x="331" y="107" width="252" height="118" rx="16" fill="#1b3141" stroke="#46677b"/><rect x="350" y="126" width="38" height="38" rx="10" fill="#294354"/><text x="369" y="153" fill="#9ccfff" font-size="21" font-weight="700">Py</text><text x="468" y="150" fill="#f1f8fc" font-size="19" font-weight="700">Python</text><rect x="400" y="189" width="136" height="25" rx="12.5" fill="#28495a"/><text x="468" y="206" fill="#abd9ff" font-size="12" font-weight="700">Öğreniyorum</text></g>
+    <g class="b3"><rect x="617" y="107" width="252" height="118" rx="16" fill="#1b3141" stroke="#46677b"/><rect x="636" y="126" width="38" height="38" rx="10" fill="#294354"/><text x="655" y="153" fill="#9ccfff" font-size="21" font-weight="700">L</text><text x="754" y="150" fill="#f1f8fc" font-size="19" font-weight="700">Lua</text><rect x="686" y="189" width="136" height="25" rx="12.5" fill="#28495a"/><text x="754" y="206" fill="#abd9ff" font-size="12" font-weight="700">Temel bilgiler</text></g>
+    <g class="b4"><rect x="903" y="107" width="252" height="118" rx="16" fill="#1b3141" stroke="#46677b"/><rect x="922" y="126" width="38" height="38" rx="10" fill="#294354"/><text x="941" y="153" fill="#9ccfff" font-size="18" font-weight="700">&lt;/&gt;</text><text x="1040" y="150" fill="#f1f8fc" font-size="19" font-weight="700">Web</text><rect x="972" y="189" width="136" height="25" rx="12.5" fill="#28495a"/><text x="1040" y="206" fill="#abd9ff" font-size="12" font-weight="700">İlgileniyorum</text></g>
+  </g>
+  <g class="dot" fill="#88e8d1"><circle cx="100" cy="169" r="3"/><circle cx="390" cy="169" r="3"/><circle cx="677" cy="169" r="3"/><circle cx="959" cy="169" r="3"/></g>
+</svg>

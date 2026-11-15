@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
+  <title id="title">Kodla, dene, geliştir</title>
+  <desc id="desc">Yumuşak biçimde hareket eden noktalarla süslenmiş profil altlığı.</desc>
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#0c1422"/><stop offset="1" stop-color="#152438"/></linearGradient><linearGradient id="a"><stop stop-color="#69e4c8"/><stop offset="1" stop-color="#8fa8ff"/></linearGradient></defs>
+  <style>
+    .dot{animation:blink 3s ease-in-out infinite alternate}
+    .dot2{animation:blink 3s ease-in-out 1s infinite alternate}
+    .sweep{animation:move 9s ease-in-out infinite alternate}
+    @keyframes blink{from{opacity:.2}to{opacity:1}}
+    @keyframes move{from{transform:translateX(-70px)}to{transform:translateX(70px)}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x="1" y="1" width="1198" height="110" rx="20" fill="url(#b)" stroke="#30485e" stroke-width="2"/>
+  <path d="M30 55H435M765 55H1170" stroke="url(#a)" stroke-width="1.5" opacity=".45"/>
+  <path d="M30 55H155M1045 55H1170" stroke="#6be6c8" stroke-width="2" stroke-dasharray="3 11" class="sweep"/>
+  <circle cx="435" cy="55" r="4" fill="#71e4d2" class="dot"/><circle cx="765" cy="55" r="4" fill="#92a8ff" class="dot2"/>
+  <text x="600" y="51" fill="#dceaf4" text-anchor="middle" font-size="18" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">Kodla · Dene · Geliştir</text>
+  <text x="600" y="77" fill="#8faabc" text-anchor="middle" font-size="12" font-family="DejaVu Sans,Arial,sans-serif">Her küçük proje, yeni bir şey öğretir.</text>
+</svg>
